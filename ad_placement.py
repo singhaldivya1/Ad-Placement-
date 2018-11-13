@@ -44,7 +44,7 @@ class AdPlacement:
         if not self.placements_file_path_is_set() or not self.delivery_file_path_is_set():
             print("ERROR!! You have to set path for the input files first. \n")
             return
-
+        print("To get number of impressions delivered and the cost for certain range of date. Please enter the start and end date as asked.\n")
         year_start = input("Enter the start year ")
         while not year_start.isnumeric():
             print("INVALID INPUT !!!! \n")
